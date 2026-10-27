@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "livesteal",
+  "version": "${version}",
+  "name": "Livesteal Heads",
+  "description": "Player heads, craftable hearts, unique weapons and join-order ranks. Server-side only: vanilla clients can join.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.livesteal.LivestealMod"] },
+  "mixins": ["livesteal.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

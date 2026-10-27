@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HWH",
+    "WMW",
+    "HWH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "W": "minecraft:wind_charge",
+    "M": "minecraft:mace"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Headhunter's Mace",
+        "color": "white",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:enchantments": {
+        "minecraft:density": 6,
+        "minecraft:unbreaking": 3,
+        "minecraft:mending": 1
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "livesteal_id": "ls_mace"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

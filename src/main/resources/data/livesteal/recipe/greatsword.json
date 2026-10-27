@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": "minecraft:player_head"
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Greatsword",
+        "color": "dark_gray",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "70 second cooldown after each swing.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:use_cooldown": {
+        "seconds": 70.0,
+        "cooldown_group": "livesteal:greatsword"
+      },
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 11
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "livesteal_id": "greatsword"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

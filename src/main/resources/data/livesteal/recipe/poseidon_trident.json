@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HNH",
+    "NSN",
+    "HNH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "minecraft:trident",
+      "minecraft:custom_name": {
+        "text": "Poseidon's Trident",
+        "color": "aqua",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-click to launch into the air.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "60 second cooldown.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:use_cooldown": {
+        "seconds": 60.0,
+        "cooldown_group": "livesteal:poseidon_trident"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {
+        "livesteal_id": "poseidon_trident"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "HBH",
+    "HHH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "B": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "minecraft:nether_star",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Heart",
+        "color": "red",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-click to gain a permanent heart (max 5).",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {
+        "livesteal_id": "heart"
+      }
+    }
+  }
+}

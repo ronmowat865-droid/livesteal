@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "HSH",
+    "HHH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "S": "minecraft:netherite_sword"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Headhunter's Blade",
+        "color": "dark_red",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:enchantments": {
+        "minecraft:sharpness": 8
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "livesteal_id": "ls_netherite_sword"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

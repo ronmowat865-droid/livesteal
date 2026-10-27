@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HAH",
+    "AEA",
+    "HAH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "minecraft:amethyst_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Amethyst of Swapping",
+        "color": "light_purple",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-click while looking at a player to swap places.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "100 second cooldown.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:use_cooldown": {
+        "seconds": 100.0,
+        "cooldown_group": "livesteal:swap_amethyst"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {
+        "livesteal_id": "swap_amethyst"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HBH",
+    "BCB",
+    "HBH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "B": "minecraft:blaze_rod",
+    "C": "minecraft:crossbow"
+  },
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Flaming Crossbow",
+        "color": "gold",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:enchantments": {
+        "minecraft:power": 9,
+        "minecraft:quick_charge": 4
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "livesteal_id": "flaming_crossbow"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

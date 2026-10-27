@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "HSH",
+    "HHH"
+  ],
+  "key": {
+    "H": "minecraft:player_head",
+    "S": "minecraft:netherite_spear"
+  },
+  "result": {
+    "id": "minecraft:netherite_spear",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Headhunter's Spear",
+        "color": "dark_purple",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:enchantments": {
+        "minecraft:lunge": 13
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "livesteal_id": "ls_spear"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}
